@@ -1,11 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>First site</title>
-</head>
-<body>
-    <h1>Les enfant de cette foret </h1>
-</body>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carte de Profil</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <div class="carte">
+
+      <!-- Photo de profil -->
+      <div class="avatar">
+        <img src="https://i.pravatar.cc/150" alt="Photo de profil" />
+      </div>
+
+      <!-- Infos principales -->
+      <div class="infos">
+        <h1 class="nom">Jean Dupont</h1>
+        <p class="titre">Développeur Web Junior</p>
+        <p class="localisation">📍 Paris, France</p>
+      </div>
+
+      <!-- Stats -->
+      <div class="stats">
+        <div class="stat">
+          <span class="stat-nombre">12</span>
+          <span class="stat-label">Projets</span>
+        </div>
+        <div class="stat">
+          <span class="stat-nombre">3</span>
+          <span class="stat-label">Années</span>
+        </div>
+        <div class="stat">
+          <span class="stat-nombre">48</span>
+          <span class="stat-label">Clients</span>
+        </div>
+      </div>
+
+      <!-- Compétences -->
+      <div class="competences">
+        <span class="tag">HTML</span>
+        <span class="tag">CSS</span>
+        <span class="tag">JavaScript</span>
+        <span class="tag">Git</span>
+      </div>
+
+      <!-- Boutons -->
+      <div class="actions">
+        <a href="#" class="btn btn-principal">Me contacter</a>
+        <a href="#" class="btn btn-secondaire">Voir CV</a>
+      </div>
+
+      <!-- Réseaux sociaux -->
+      <div class="reseaux">
+        <a href="#" class="reseau">GitHub</a>
+        <a href="#" class="reseau">LinkedIn</a>
+        <a href="#" class="reseau">Twitter</a>
+      </div>
+
+    </div>
+
+  </body>
 </html>
